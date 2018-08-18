@@ -1,0 +1,18 @@
+from pyAudioAnalysis import audioTrainTest as att
+
+#att.featureAndTrain(['bass','house'],1.0,1.0,att.shortTermWindow,att.shortTermStep,'svm','genre',True)
+print att.fileClassification('wav/0.wav','genre','svm')
+print att.fileClassification('wav/1.wav','genre','svm')
+print att.fileClassification('wav/2.wav','genre','svm')
+print att.fileClassification('wav/3.wav','genre','svm')
+print att.fileClassification('wav/4.wav','genre','svm')
+print att.fileClassification('wav/5.wav','genre','svm')
+print att.fileClassification('wav/6.wav','genre','svm')
+print att.fileClassification('wav/7.wav','genre','svm')
+print att.fileClassification('wav/8.wav','genre','svm')
+print att.fileClassification('wav/9.wav','genre','svm')
+print att.fileClassification('wav/10.wav','genre','svm')
+print att.fileClassification('wav/12.wav','genre','svm')
+print att.fileClassification('wav/11.wav','genre','svm')
+print att.fileClassification('wav/13.wav','genre','svm')
+print att.fileClassification('wav/14.wav','genre','svm')
